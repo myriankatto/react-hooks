@@ -1,0 +1,41 @@
+.app {
+  background-color: #c2f0fd;
+  padding: 30px;
+  height: 100vh;
+}
+
+.todo-list {
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo {
+  background-color: white;
+  box-shadow: 1px 1px 1px #4e4e4e54;
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+}
+
+button {
+  background-color: #97d7e9;
+  color: black;
+  border: none;
+  margin-left: 5px;
+}
